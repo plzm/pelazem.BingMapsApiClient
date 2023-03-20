@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BingMapsApiClient;
+using pelazem.BingMapsApiClient;
 
 namespace Tester
 {
@@ -15,7 +15,7 @@ namespace Tester
 
 		static async Task DoIt()
 		{
-			string apiKey = "";
+			string apiKey = ""; // Get at https://www.bingmapsportal.com/
 			string addressText = "";
 
 			ApiClient apiClient = new ApiClient(apiKey);
